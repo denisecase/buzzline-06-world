@@ -22,8 +22,9 @@ The public or analytics researchers can access this proposed API to look for ind
 
 ## Challenge
 
-1. Analyze `civic_world_a.duckdb` and `civic_world_b.duckdb` using the provided [notebook](./notebooks/analysis.ipynb).
+1. Analyze `civic_world_a.duckdb` and `civic_world_b.duckdb`.
 2. Determine which world shows **organic civic discourse** and which world shows **coordinated manipulation**.
+3. Use the provided [Jupyter Notebook (analysis.ipynb)](./notebooks/analysis.ipynb) to begin. 
 
 ## Project Organization
 
@@ -36,7 +37,7 @@ The public or analytics researchers can access this proposed API to look for ind
 /docs/                     # Background information
 
 /notebooks/
-  [analysis.ipynb](./notebooks/analysis.ipynb)  # Partially implemented analysis
+  analysis.ipynb           # Partially implemented analysis
 
 ```
 
