@@ -1,5 +1,11 @@
 # buzzline-06-world
 
+![Python](https://img.shields.io/badge/python-3.11+-blue.svg)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/denisecase/buzzline-06-world/main?filepath=notebooks/analysis.ipynb)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
+![DuckDB](https://img.shields.io/badge/DuckDB-Analytics-green.svg)
+
 ## From Streaming to Historical Analysis
 
 Streaming data comes in many forms.
@@ -24,7 +30,13 @@ The public or analytics researchers can access this proposed API to look for ind
 
 1. Analyze `civic_world_a.duckdb` and `civic_world_b.duckdb`.
 2. Determine which world shows **organic civic discourse** and which world shows **coordinated manipulation**.
-3. Use the provided [Jupyter Notebook (analysis.ipynb)](./notebooks/analysis.ipynb) to begin. 
+3. Use the provided [Jupyter Notebook (analysis.ipynb)](./notebooks/analysis.ipynb) for analysis. 
+
+> **Interactive Charts:** 
+> - The notebook uses interactive Plotly charts which do not render on GitHub. 
+> - Recommended: See **Getting Started** below to get the analysis working locally on your machine. 
+> - For an **interactive preview**, see [MyBinder Analysis Notebook](https://mybinder.org/v2/gh/denisecase/buzzline-06-world/main?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2Fanalysis.ipynb) (it's free, please be patient).
+
 
 ## Project Organization
 
@@ -54,9 +66,13 @@ These six prepared views help compare the two worlds:
 
 Each view tests a hypothesis about coordinated vs organic behavior.
 
-## Setup
+## Getting Started
 
-Standard project setup: see [pro-analytics-01](https://github.com/denisecase/pro-analytics-01) for more detailed instructions.
+1. Copy this template repo into your GitHub account. 
+2. Clone your new buzzline-06-world repository down to your machine.
+3. Create and activate your local project virtual environment (.venv) and install key tools. 
+
+Follow the standard project setup described at [pro-analytics-01](https://github.com/denisecase/pro-analytics-01) for more detailed instructions.
 
 ### CheatSheet: Commands to Manage Virtual Environment
 
