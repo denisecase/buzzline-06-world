@@ -1,0 +1,6 @@
+duckdb
+ipykernel
+ipywidgets
+jupyter
+pandas
+plotly

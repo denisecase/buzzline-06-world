@@ -1,0 +1,50 @@
+[project]
+description = "Populated DuckDB worlds for civic analytics."
+license = "MIT"
+name = "buzzline-06-world"
+readme = "README.md"
+requires-python = ">=3.11"
+version = "0.1.0"
+
+authors = [
+  {name = "Denise M. Case", email = "dcase@wmissouri.edu"},
+]
+
+dependencies = [
+  "duckdb",
+  "ipykernel",
+  "ipywidgets",
+  "jupyter",
+  "pandas",
+  "plotly",
+]
+
+[project.optional-dependencies]
+dev = [
+  "ruff",
+  "nbdime",
+]
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools>=80.9.0"]
+
+
+# -------------------
+# Tool configs
+# -------------------
+
+[tool.ruff]
+# Lint + format with Ruff
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+fixable = ["ALL"]
+ignore = ["E203"] # whitespace before ':'
+select = ["E", "F", "W", "I", "N", "UP", "B"]
+
+[tool.ruff.format]
+indent-style = "space"
+quote-style = "double"
+
